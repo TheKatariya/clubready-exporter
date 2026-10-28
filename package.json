@@ -1,0 +1,16 @@
+{
+  "name": "clubready-exporter",
+  "version": "1.0.0",
+  "description": "Headless Playwright CLI that downloads ClubReady reports as CSV files.",
+  "license": "MIT",
+  "bin": { "clubready-export": "src/cli.js" },
+  "scripts": {
+    "test": "node --test test/",
+    "list": "node src/cli.js list"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "playwright": "^1.59.1"
+  }
+}
